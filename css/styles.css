@@ -1,0 +1,38 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/03/17/16/031716eca55744307fa7fcc3571cdda1.jpg");
+  background-color: #cccccc;
+}
+h1 {
+  color: #EB1D36;
+  font-family: 'Pacifico', cursive;
+}
+h2 {
+  color: #FA9494;
+  font-family: 'Pacifico', cursive;
+}
+
+.central {
+  position: absolute;
+margin-top: 100px;
+margin-left: 400px;
+text-align: center;
+display: inline-block;
+
+}
+
+.qrcode {
+  position: absolute;
+margin-top: 120px;
+margin-left: 520px;
+text-align: center;
+border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 350px;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+}
