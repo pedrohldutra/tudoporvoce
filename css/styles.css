@@ -18,13 +18,11 @@ h2 {
     margin: -25px 0 0 -25px;
     text-align: center;
     transform: translate(-50%, -50%);  
-      border: 5px solid #EB1D36;
+    
 }
 
 .qrcode {
-position: absolute;
-margin-top: 120px;
-margin-left: 520px;
+
 text-align: center;
 border: 1px solid #ddd;
 border-radius: 4px;
@@ -33,7 +31,17 @@ width: 350px;
 }
 
 .text {
-  position: absolute;
+  
   text-align: center;
-  margin: auto;
+  width: 800px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  display: block;
 }
